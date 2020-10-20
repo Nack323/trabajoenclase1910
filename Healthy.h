@@ -2,7 +2,7 @@
 #define Healthy_h
 
 #include "Person.h"
-class Healthy{
+class Healthy:public Person{
     private:
         int numEpochsHealthy;
     public:
