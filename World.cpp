@@ -1,34 +1,46 @@
 #include "World.h"
 #include <iostream>
 
-World::World(WorldObject *world, Person *population, Virus virus)
+World::World(Virus virus, int worldSize)
 {
-
+  this->virtus=virus;
+  this->worldSize=worldSize;
+  this->world=new WorldObject*[worldSize];
+  
+  for (int i=0; i<worldSize; i++)
+  {
+    this->world[i]=new WorldObject[worldSize}; 
+  }
 }
-
-void World::newEpoch()
+                                   
+void World::initWorld(int numPrivateHospitals, int numPublicHospitals, int numHealthyPeople, int numInfectedPeople)
+{
+  
+}
+                                   
+void World::newEpoch(int epoch)
 {
   //falta
 }
 
 int World:: getInfected()
 {
-  return; //no se que variable es jeje 
+  return 0; //no se que variable es jeje 
 }
 
 int World::getDeath()
 {
-  return; //no se que variable es jeje
+  return 0; //no se que variable es jeje
 }
 
 int World::getHealthy()
 {
-  return; //no se que variable es jeje
+  return 0; //no se que variable es jeje
 }
 
 int World::getHealed()
 {
-  return; //no se que variable es jeje
+  return 0; //no se que variable es jeje
 }
 
 void World::printWorld()
