@@ -8,10 +8,10 @@ Healed::Healed(int numEpochsHealthy, int numEpochsInfected, int numEpochsHealed)
 
 void Healed::next_move()
 {
-  \\override
+  //override
 }
 
 void Healed::updateEpoch()
 {
-  \\override
+  //override
 }
