@@ -8,5 +8,5 @@ Asymtomatic::Asymtomatic()
 
 void Asymtomatic::next_move()
 {
-
+  //override
 }
