@@ -7,7 +7,7 @@ class Healthy:public Person{
         int numEpochsHealthy;
     public:
         Healthy(int);
-        setNumEpochs(int)
+        void setNumEpochs(int)
         void next_move() override;
         void updateEpoch() override;
 };
