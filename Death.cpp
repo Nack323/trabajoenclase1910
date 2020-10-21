@@ -8,10 +8,10 @@ Death::Death(int numEpochsHealthy, int numEpochsInfected, int epochOfDeath)
 
 void Death::next_move()
 {
-  \\override
+  //override
 }
 
 void Death::updateEpoch()
 {
-  \\override
+  //override
 }
