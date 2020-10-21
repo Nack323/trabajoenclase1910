@@ -11,6 +11,6 @@ class Infected : public Person{
         Infected(int, int);
         void next_move() override;
         void updateEpoch() override;
-}
+};
 
 #endif

@@ -1,6 +1,6 @@
 #ifndef Death_h
 #define Death_h
-
+#include "Person.h"
 class Death:public Person{
     private:
         int numEpochsHealthy;
