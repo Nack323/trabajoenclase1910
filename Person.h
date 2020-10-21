@@ -7,6 +7,7 @@ class Person: public WorldObject{
         int id;
     public:
         Person(int);
+        Person();
         virtual void next_move();
         virtual void updateEpoch();
 };

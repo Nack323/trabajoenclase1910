@@ -1,5 +1,6 @@
 #ifndef Asymptomatic_h
 #define Asymptomatic_h
+
 #include "Infected.h"
 
 class Asymptomatic : public Infected {

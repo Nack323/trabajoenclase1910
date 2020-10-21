@@ -7,6 +7,7 @@ class WorldObject{
         int posY{0};
     public:
         WorldObject(int, int);
+        WorldObject();
 };
 
 #endif

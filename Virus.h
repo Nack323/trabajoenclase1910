@@ -10,6 +10,7 @@ class Virus{
         float probabilityHealed;
         float probabilityInfected;
         Virus(std::string, float, float, float, float, float);
+        Virus();
 };
 
 #endif

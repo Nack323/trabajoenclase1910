@@ -8,7 +8,7 @@ class Hospital : public WorldObject{
         float increaseProbabilityHealed;
     public:
         Hospital(int, int, float);
-        virtual void acceptPatient();
+        virtual bool acceptPatient();
 };
 
 #endif

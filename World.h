@@ -9,7 +9,8 @@ class World{
         Person *population;
         Virus virus;
     public:
-        WorldObject(WorldObject * , Person *, virus);
+        World(WorldObject*, Person*, Virus);
+        World();
         void newEpoch();
         int getInfected();
         int getDeath();

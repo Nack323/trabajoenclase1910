@@ -1,12 +1,7 @@
-#include "Asymtomatic.h"
+#include "Asymptomatic.h"
 #include <iostream> 
 
-Asymtomatic::Asymtomatic()
-{
-
-}
-
-void Asymtomatic::next_move()
+void Asymptomatic::next_move()
 {
   //override
 }

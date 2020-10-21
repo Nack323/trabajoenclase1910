@@ -1,17 +1,17 @@
 #include "Person.h"
 #include <iostream> 
 
-Person::Person(int id)
+Person::Person(int id):id(id)
 {
 
 }
 
-virtual void Person::next_move()
+void Person::next_move()
 {
   //falta
 }
 
-virtual void Person::updateEpoch()
+void Person::updateEpoch()
 {
   //falta
 }

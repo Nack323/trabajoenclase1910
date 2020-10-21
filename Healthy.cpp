@@ -1,22 +1,22 @@
-#include "Healty.h"
+#include "Healthy.h"
 #include <iostream>
 
-Healty::Healty(int numEpochsHealthy)
+Healthy::Healthy(int numEpochsHealthy):numEpochsHealthy(numEpochsHealthy)
 {
 
 }
 
-void Healty::setNumEpochs(int numEpochsHealthy)
+void Healthy::setNumEpochs(int numEpochsHealthy)
 {
-  this->numEpochsHealthy=numEpochsHealthy
+  this->numEpochsHealthy=numEpochsHealthy;
 }
 
-void Healty::void next_move()
+void Healthy::next_move()
 {
   //override
 }
 
-void Healty::void updateEpoch()
+void Healthy::updateEpoch()
 {
   //override
 }  

@@ -1,7 +1,7 @@
 #include "World.h"
 #include <iostream>
 
-World::WorldObject(WorldObject *world, Person *population, Virus virus)
+World::World(WorldObject *world, Person *population, Virus virus)
 {
 
 }
@@ -11,7 +11,7 @@ void World::newEpoch()
   //falta
 }
 
-int World::int getInfected()
+int World:: getInfected()
 {
   return; //no se que variable es jeje 
 }
@@ -21,7 +21,7 @@ int World::getDeath()
   return; //no se que variable es jeje
 }
 
-int World::getHealty()
+int World::getHealthy()
 {
   return; //no se que variable es jeje
 }

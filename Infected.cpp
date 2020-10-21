@@ -6,12 +6,12 @@ Infected::Infected(int numEpochsHealthy, int numEpochsInfected)
 
 }
 
-void Infected::void next_move()
+void Infected::next_move()
 {
   //override
 }
 
-void Infected::void updateEpoch()
+void Infected::updateEpoch()
 {
   //override
 }
