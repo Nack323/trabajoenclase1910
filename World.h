@@ -3,15 +3,24 @@
 #include "WorldObject.h"
 #include "Person.h"
 #include "Virus.h"
-class World{
+class World
+{
     private:
         WorldObject *world;
-        Person *population;
+        int worldSize;
+        Person *death{nullptr};
+        int deathInWorld{0};
         Virus virus;
+        int privateHospitalsCapacity{4};
+        float increaseProbabilityHealedPrivate{0.15};
+        int publicHospitalCapacity{8};
+        float increaseProbabilityHealedPublic{0.1};
+    
     public:
-        World(WorldObject*, Person*, Virus);
+        World(Virus, int);
         World();
-        void newEpoch();
+        void initWorld(int, int, int, int);
+        void newEpoch(int);
         int getInfected();
         int getDeath();
         int getHealthy();
