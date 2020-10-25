@@ -13,4 +13,5 @@ bool Hospital::acceptPatient()
     }else {
       return False;
     } */
+    return false;
 }

@@ -5,3 +5,5 @@ Virus::Virus(std::string name, float probabilityOfInfection, float probabilityAs
 {
 
 }
+
+Virus::Virus(){}

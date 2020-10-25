@@ -4,4 +4,5 @@
 bool Public::acceptPatient()
 {
   //override
+    return false;
 }

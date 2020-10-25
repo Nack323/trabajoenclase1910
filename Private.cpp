@@ -4,4 +4,5 @@
 bool Private::acceptPatient() 
 {
   //override
+    return false;
 }

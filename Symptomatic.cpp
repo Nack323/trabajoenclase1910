@@ -1,7 +1,7 @@
-#include "Symtomatic.h"
+#include "Symptomatic.h"
 #include <iostream> 
 
-void Symtomatic::next_move()
+void Symptomatic::next_move()
 {
   //override
 }
