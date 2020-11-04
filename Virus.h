@@ -14,6 +14,7 @@ class Virus{
     public:
         Virus(std::string, float, float, float, float, float);
         Virus();
+    float getProbabilityAsymptomatic();
 };
 
 #endif

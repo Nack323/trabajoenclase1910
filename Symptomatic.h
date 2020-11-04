@@ -5,6 +5,7 @@
 class Symptomatic : public Infected{  
     public:
         void next_move() override;
+    Symptomatic(int, int, int);
 };
 
 #endif

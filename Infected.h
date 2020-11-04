@@ -8,7 +8,7 @@ class Infected : public Person{
         int numEpochsHealthy;
         int numEpochsInfected;
     public:
-        Infected(int, int);
+        Infected(int, int, int);
         void next_move() override;
         void updateEpoch() override;
 };

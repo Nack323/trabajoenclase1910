@@ -14,7 +14,7 @@ private:
     float increaseProbabilityHealedPrivate{0.15};
     int publicHospitalsCapacity{8};
     float increaseProbabilityHealedPublic{0.1};
-    
+    void getRandomXY(int&, int&);
 public:
     World(Virus, int);
     World();

@@ -1,7 +1,7 @@
 #include "Healthy.h"
 #include <iostream>
 
-Healthy::Healthy(int numEpochsHealthy):numEpochsHealthy(numEpochsHealthy)
+Healthy::Healthy(int id):Person(id)
 {
 
 }

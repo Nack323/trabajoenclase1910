@@ -6,3 +6,19 @@ WorldObject::WorldObject(int posX, int posY){
 }
 
 WorldObject::WorldObject(){}
+
+void WorldObject::setX(int X){
+    this->posX = X;
+}
+
+void WorldObject::setY(int Y){
+    this->posY = Y;
+}
+
+int WorldObject::getX(){
+    return this->posX;
+}
+
+int WorldObject::getY(){
+    return this->posY;
+}

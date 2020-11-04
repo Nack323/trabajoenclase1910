@@ -4,6 +4,7 @@
 #include "Hospital.h"
 class Public : public Hospital{
     public:
+    Public(int, int, float);
         bool acceptPatient() override;
 };
 

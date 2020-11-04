@@ -6,6 +6,7 @@
 class Asymptomatic : public Infected {
     public:
         void next_move() override;
+        Asymptomatic(int, int, int);
 };
 
 #endif

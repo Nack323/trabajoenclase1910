@@ -7,3 +7,7 @@ Virus::Virus(std::string name, float probabilityOfInfection, float probabilityAs
 }
 
 Virus::Virus(){}
+
+float Virus::getProbabilityAsymptomatic(){
+    return this->probabilityAsymptomatic;
+}
